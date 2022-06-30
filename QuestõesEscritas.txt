@@ -1,0 +1,90 @@
+Questão 1 
+
+Letra A:
+
+Uma Estrutura de Dados Lista é um conjunto de dados dispostos e/ou acessáveis em uma seqüência determinada. Este conjunto de dados pode possuir uma ordem intrínseca (Lista Ordenada) ou não
+
+Letra B:
+
+São estruturas de dados do tipo LIFO (last-in first-out), onde o último a ser adicionado, será o primeiro a ser removido. Assim, uma pilha permite acesso a apenas o ultimo item. Para ver o penúltimo item inserido, deve-se remover o último.
+
+Letra C:
+
+As filas são estruturas de dados que admite a adição e remoção de novos objetos. Ela segue a regra que o primeiro a ser adicionado é o primeiro a ser removido (FIFO)
+
+
+Questão 2
+
+Letra A:
+
+Adição (no fim):
+1º: 2
+2º: 2 - 4
+3º: 2 - 4 - 5
+4º: 2 - 4 - 5 - 6
+5º: 2 - 4 - 5 - 6 - 8
+6º: 2 - 4 - 5 - 6 - 8 - 7
+
+Adição (no inicio):
+1º: 2
+2º: 4 - 2
+3º: 5 - 4 - 2
+4º: 6 - 5 - 4 - 2
+5º: 8 - 6 - 5 - 4 - 2
+6º: 7 - 8 - 6 - 5 - 4 - 2
+
+Remoção (no fim):
+1º: 2 - 4 - 5 - 6 - 8 - 7
+2º: 2 - 4 - 5 - 6 - 8
+3º: 2 - 4 - 5 - 6
+4º: 2 - 4 - 5
+5º: 2 - 4
+6º: 2
+
+Remoção (no inicio):
+1º: 2 - 4 - 5 - 6 - 8 - 7
+2º: 4 - 5 - 6 - 8 - 7
+3º: 5 - 6 - 8 - 7
+4º: 6 - 8 - 7
+5º: 8 - 7
+6º: 7
+
+
+Letra B:
+
+Adição:
+1º: 2
+2º: 4 - 2
+3º: 5 - 4 - 2
+4º: 6 - 5 - 4 - 2
+5º: 8 - 6 - 5 - 4 - 2
+6º: 7 - 8 - 6 - 5 - 4 - 2
+
+Remoção:
+1º: 7 - 8 - 6 - 5 - 4 - 2
+2º: 8 - 6 - 5 - 4 - 2
+3º: 6 - 5 - 4 - 2
+4º: 5 - 4 - 2
+5º: 4 - 2
+6º: 2
+
+Letra C:
+
+Adição: 
+1º: 2
+2º: 2 - 4
+3º: 2 - 4 - 5
+4º: 2 - 4 - 5 - 6
+5º: 2 - 4 - 5 - 6 - 8
+6º: 2 - 4 - 5 - 6 - 8 - 7
+
+Remoção:
+1º: 2 - 4 - 5 - 6 - 8 - 7
+2º: 4 - 5 - 6 - 8 - 7
+3º: 5 - 6 - 8 - 7
+4º: 6 - 8 - 7
+5º: 8 - 7
+6º: 7
+
+
+
