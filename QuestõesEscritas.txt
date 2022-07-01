@@ -2,7 +2,7 @@ Questão 1
 
 Letra A:
 
-Uma Estrutura de Dados Lista é um conjunto de dados dispostos e/ou acessáveis em uma seqüência determinada. Este conjunto de dados pode possuir uma ordem intrínseca (Lista Ordenada) ou não
+Uma Estrutura de Dados Lista é um conjunto de dados dispostos e/ou acessiveis em uma sequência determinada. Este conjunto de dados pode possuir uma ordem intrínseca (Lista Ordenada) ou não
 
 Letra B:
 

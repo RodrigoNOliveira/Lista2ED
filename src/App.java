@@ -9,9 +9,9 @@ public class App {
 
         
         // ################### QUESTÃO 3 #######################
+                    //Classes Usadas: FilaComPrioridade e Contato
 
-
-/* 
+/*
         FilaComPrioridade<Contato> fila = new FilaComPrioridade<>();
 
         int opcao = 0;
@@ -92,7 +92,7 @@ public class App {
 
 
         // ################### QUESTÃO 4 #######################
-
+                    //Classes Usadas: Pilha e Livro
 
 /* 
         Pilha<Livro> pilha = new Pilha<Livro>(20);
@@ -129,75 +129,108 @@ public class App {
 */
 
         // ################### CODIGO PARA QUESTÕES 5 #######################
-
                    //Classes Usadas: No e ListaLigada
- 
-        // ListaLigada lista = new ListaLigada();
-        // No novoElemento = new No("A", null);
-        // lista.adicionar(novoElemento);
-        // lista.adicionar(new No("B", null));
-        // lista.adicionar(new No("C", null));
-        // lista.adicionar(new No("D", null));
-        // novoElemento = new No("E", null);
-        // lista.adicionar(2, novoElemento);
-        // lista.imprimir();
-        // lista.remove(4);
-        // lista.imprimir();
-        // lista.adicionar(new No("Z", null));
-        // System.out.println(lista.contem(novoElemento));
-        // lista.remove(2);
-        // System.out.println(lista.contem(novoElemento));
-        // novoElemento = new No("E", null);
-        // lista.adicionar(2, novoElemento);
-        // System.out.println(lista.contem(novoElemento));
-        // lista.imprimir();
+
+
+/* 
+        ListaLigada lista = new ListaLigada();
+        No novoElemento = new No("A", null);
+        lista.adicionar(novoElemento);
+        lista.adicionar(new No("B", null));
+        lista.adicionar(new No("C", null));
+        lista.adicionar(new No("D", null));
+        novoElemento = new No("E", null);
+        lista.adicionar(2, novoElemento);
+        lista.imprimir();
+        lista.remove(4);
+        lista.imprimir();
+        lista.adicionar(new No("Z", null));
+        System.out.println(lista.contem(novoElemento));
+        lista.remove(2);
+        System.out.println(lista.contem(novoElemento));
+        novoElemento = new No("E", null);
+        lista.adicionar(2, novoElemento);
+        System.out.println(lista.contem(novoElemento));
+        lista.imprimir();
+*/
+
+
 
         // ######### TESTE QUESTÃO 6 ###########
 
 
            //Classes Usadas: Nos e ListaDuplamenteLigada
 
+/*
+        ListaDuplamenteLigada lista = new ListaDuplamenteLigada();
+        Nos novoElemento = new Nos("A", null, null);
+        lista.adicionar(novoElemento);
+        lista.adicionar(new Nos("B", null, null));
+        lista.adicionar(new Nos("C", null, null));
+        lista.adicionar(new Nos("D", null, null));
+        novoElemento = new Nos("E", null, null);
+        lista.adicionar(novoElemento);
+        lista.adicionar(2, new Nos("Z", null, null));
+        lista.print();
+        System.out.println();
+        System.out.println("teste questão");
+        System.out.println();
+        lista.print();
+        lista.removerUltimo();
+        lista.print();
+        lista.adicionar(new Nos("OLOKO", null, null));
+        lista.print();
 
-        // ListaDuplamenteLigada lista = new ListaDuplamenteLigada();
-        // Nos novoElemento = new Nos("A", null, null);
-        // lista.adicionar(novoElemento);
-        // lista.adicionar(new Nos("B", null, null));
-        // lista.adicionar(new Nos("C", null, null));
-        // lista.adicionar(new Nos("D", null, null));
-        // novoElemento = new Nos("E", null, null);
-        // lista.adicionar(novoElemento);
-        // lista.adicionar(2, new Nos("Z", null, null));
-        // lista.print();
-        // lista.remove(3);
-        // lista.print();
-        // System.out.println("teste");
-        // lista.print();
-        // lista.removerUltimo();
-        // lista.print();
-        // lista.adicionar(new Nos("OLOKO", null, null));
-        // lista.print();
-
-        
+*/
         
         // ######### TESTE QUESTÃO 7 ###########
+                    //Classes Usadas: FilaDinamica e NoFila
 
-        // FilaDinamica fila = new FilaDinamica();
-        // NoFila novoElemento = new NoFila("A");
-        // fila.enfileirar(novoElemento);
-        // novoElemento = new NoFila("B", null, null);
-        // fila.enfileirar(novoElemento);
-        // fila.enfileirar(new NoFila("C"));
-        // fila.enfileirar(new NoFila("D", null, null));
-        // fila.imprimir();
-        // fila.enfileirar(new NoFila("E"));
-        // fila.imprimir();
+        FilaDinamica fila = new FilaDinamica();
+        NoFila novoElemento = new NoFila("A");
+        fila.enfileirar(novoElemento);
+        novoElemento = new NoFila("B", null, null);
+        fila.enfileirar(novoElemento);
+        fila.enfileirar(new NoFila("C"));
+        fila.enfileirar(new NoFila("D", null, null));
+        fila.enfileirar(new NoFila("E"));
+        fila.imprimir();
         // NoFila removido = fila.desenfileirar();
         // //fila.imprimir();
         // System.out.println("Elemento removida da fila foi: " + removido.getData());
         // removido = fila.desenfileirar();
         // System.out.println("Elemento removida da fila foi: " + removido.getData());
-        // fila.imprimir();
-        // fila.inverterOrdem();
+        fila.inverterOrdem();
+
+
+
+           // ################## QUESTÃO 8 ####################
+                    //Classes Usadas: No6 e PilhaDinamica6
+
+
+
+        //    PilhaDinamica6 pilha = new PilhaDinamica6();
+
+        //    System.out.println("Digite seu nome: ");
+        //    String palavra = scanner.nextLine();
+        //    for (int i = 0; i < palavra.length(); i++) {
+        //        char letra = palavra.charAt(i);
+        //        pilha.empilhar(new No6(letra));
+              
+        //    }
+        //    String inverso = "";
+           
+        //    while (pilha.getTopo() != null){
+        //        // char x = pilha.getTopo();
+           
+        //         inverso = inverso + pilha.desempilhar().getData();
+               
+               
+        //    }
+        //    System.out.println("Seu nome é: " + palavra);
+        //    System.out.println("Seu nome ao contrario é: " + inverso);
+
+
 
 
 
